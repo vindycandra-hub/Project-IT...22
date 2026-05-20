@@ -1,0 +1,11 @@
+body{
+	background:white;
+	text-align :center;
+}
+ 
+ b{
+    font-family:arial;
+    font-size:100px;
+	box-shadow: 0 4px 20px rgba(0,0,0,0.20);
+	
+ }
