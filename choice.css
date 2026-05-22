@@ -1,0 +1,29 @@
+body{
+	font-family:Arial, sans-serif;
+	margin:2px;
+	background-color:#f2f2f2;
+	  
+}
+.container{
+	max-width:400px;
+	background:lavender;
+	padding:20px;
+	border-radius:8px;
+	box-shadow:0 0 10px rgba (0,0,0,0.1);
+	margin:auto;
+}
+label{
+	display:block;
+	margin-top:10px;
+	font-weight:bold;
+}
+.result{
+	margin-top:20px;
+	padding:10px;
+	background-color:#acd5e3;
+	font-weight:bold;
+	white-space:pre-line;
+}
+button{
+	color:blue;
+	background-color:pink;
