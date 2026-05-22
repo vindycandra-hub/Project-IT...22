@@ -1,7 +1,7 @@
 body {
 	font-family:Arial,helvetica,sans-serif;
 	margin:0;
-	background-color:white;
+	background-color:pink;
 }
 .header{
 	 background-image:9d7ca0677bda061630cb5ec3e72dec41.jpg;
@@ -80,15 +80,7 @@ body {
 
 }
 
-.3gambar{
-	width:220px;
-	height:220px;
-	object-fit:cover;
-	border-radius:10%;
-	margin-bottom:12px;
-	box-shadow:0 2px 8px rgba(0,0,0,0.3);
-
-}
 button{
 	background-color:lavender;
+}
 	
