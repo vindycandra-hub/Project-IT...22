@@ -1,7 +1,7 @@
 document.getElementById('tampilkanBTN').onclick=function(){
 	var Name=document.getElementById('Name').value.trim();
 	if (Name===""){ 
-	    nama="(Name have to be fill in)";
+	    Name="(Name have to be fill in)";
 		
 	}
 	
