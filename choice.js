@@ -26,8 +26,8 @@ document.getElementById('tampilBTN').onclick=function(){
 	if (gender===""){
 		gender="(Please Fill in the gender)";
 	}
-	var Total people="";
-	var radios=document.getElementsByName('Total people');
+	var Totalpeople="";
+	var radios=document.getElementsByName('Totalpeople');
 	for (var i=0; i<radios.length; i++){
 		if(radios[i].checked){
 			Totalpeople=radios[i].value;
@@ -37,6 +37,6 @@ document.getElementById('tampilBTN').onclick=function(){
 	if (Total===""){
 		Total people="(Pls input the numbers of people)";
 	}
-	var hasilText="Name:"+Name+"Birthday:"+Birthday+"Age:"+Age+"\nGender:" + gender +"\nTotal people:"+Total people;
-	document.getElementById('hasil').innerText=hasilText;
+	var hasilText="Name:"+Name+"Birthday:"+Birthday+"Age:"+Age+"\nGender:" + gender +"\nTotalpeople:"+Totalpeople;
+	document.getElementById('Hasil').innerText=hasilText;
 }	
