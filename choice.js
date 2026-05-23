@@ -1,26 +1,19 @@
 document.getElementById('tampilkanBTN').onclick=function(){
-	var nama=document.getElementById('nama').value.trim();
-	if (nama===""){ 
-	    nama="(nama harus di isi)";
+	var Name=document.getElementById('Name').value.trim();
+	if (Name===""){ 
+	    nama="(Name have to be fill in)";
 		
 	}
 	
-	var kelas=document.getElementById('kelas').value.trim();
-	if (kelas===""){ 
-	    kelas="(kelas harus di isi)";
+	var Birthday=document.getElementById('Birthday').value.trim();
+	if (Birthday===""){ 
+	    Birthday="(Birthday have to be fill in)";
 		
 	}
-	var Umur="";
-	var Checkbox=document.getElementsByName('Umur');
-	for (var i=0; i<Checkbox.length; i++){
-		if(Checkbox[i].checked){
-			Umur=Checkbox[i].value;
-		break;
+	var Age=document.getElementById('Age').value.trim();
+	if (Age===""){ 
+	    Age="(Age have to be fill in)";
 		}
-	}
-	if (Umur===""){
-		Umur="(mohon masukkan umur anda)";
-	}
 	
 	var gender="";
 	var radios=document.getElementsByName('gender');
@@ -31,19 +24,19 @@ document.getElementById('tampilkanBTN').onclick=function(){
 		}
 	}
 	if (gender===""){
-		gender="(mohon masukkan jenis kelamin)";
+		gender="(Please Fill in the gender)";
 	}
-	var tingkat="";
-	var radios=document.getElementsByName('tingkat');
+	var Total people="";
+	var radios=document.getElementsByName('total people');
 	for (var i=0; i<radios.length; i++){
 		if(radios[i].checked){
-			tingkat=radios[i].value;
+			Totalpeople=radios[i].value;
 		break;
 		}
 	}
-	if (tingkat===""){
-		tingkat="(mohon masukkan tingkatan)";
+	if (Total===""){
+		Total people="(Pls input the numbers of people)";
 	}
-	var hasilText="Nama:"+nama+"kelas:"+kelas+"\nUmur:"+Umur+"\nJenis kelamin:" + gender +"\ntingkat:"+tingkat;
+	var hasilText="Name:"+Name+"Birthday:"+Birthday+"Age:"+Age+"\nGender:" + gender +"\nTotal people:"+Total people;
 	document.getElementById('hasil').innerText=hasilText;
 }	
