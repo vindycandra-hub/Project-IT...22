@@ -27,7 +27,7 @@ document.getElementById('tampilkanBTN').onclick=function(){
 		gender="(Please Fill in the gender)";
 	}
 	var Total people="";
-	var radios=document.getElementsByName('total people');
+	var radios=document.getElementsByName('Total people');
 	for (var i=0; i<radios.length; i++){
 		if(radios[i].checked){
 			Totalpeople=radios[i].value;
