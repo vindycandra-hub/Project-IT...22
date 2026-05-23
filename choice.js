@@ -1,4 +1,4 @@
-document.getElementById('tampilkanBTN').onclick=function(){
+document.getElementById('tampilBTN').onclick=function(){
 	var Name=document.getElementById('Name').value.trim();
 	if (Name===""){ 
 	    Name="(Name have to be fill in)";
